@@ -4,6 +4,7 @@ import linkedin from "./assets/siteImages/linkedin.png";
 import github from "./assets/siteImages/github.png";
 import "./App.css";
 import Description from './Description';
+import Technologies from './Technologies';
 
 class App extends Component {
   render() {
@@ -34,6 +35,7 @@ class App extends Component {
           />
           <Description />
           <h2 className="divider"></h2>
+          <Technologies />
         </div>
         <div class="footer">
           <img src={linkedin} alt="linkedin"></img>
