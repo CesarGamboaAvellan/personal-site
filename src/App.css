@@ -9,6 +9,13 @@ ul {
   background-color: #e6ecf3;
   font-size: 1.7em;
 }
+.divider {
+  width: 70vw;
+  height: 1px;
+  border: 0;
+  display: inline-table;
+  border-top: 1px solid #bbb;
+}
 
 li {
   float: left;

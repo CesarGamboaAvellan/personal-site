@@ -3,6 +3,7 @@ import profilePicture from "./assets/siteImages/fotoperfil.png";
 import linkedin from "./assets/siteImages/linkedin.png";
 import github from "./assets/siteImages/github.png";
 import "./App.css";
+import Description from './Description';
 
 class App extends Component {
   render() {
@@ -25,11 +26,14 @@ class App extends Component {
               <a href="#about">Contact</a>
             </li>
           </ul>
+            <h2 className="divider"></h2>
           <img
             src={profilePicture}
             alt="profilePicture"
             className="rounder-div"
           />
+          <Description />
+          <h2 className="divider"></h2>
         </div>
         <div class="footer">
           <img src={linkedin} alt="linkedin"></img>
