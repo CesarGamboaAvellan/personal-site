@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import profilePicture from "./assets/siteImages/fotoperfil.png";
 import linkedin from "./assets/siteImages/linkedin.png";
 import github from "./assets/siteImages/github.png";
+import medium from "./assets/siteImages/medium-logo.png"
+import stackOverflow from "./assets/siteImages/stack.ico";
 import "./App.css";
 import Description from './Description';
 import Contact from './Contact';
@@ -27,7 +29,7 @@ class App extends Component {
           <Description />
           <h2 className="divider"></h2>
           <table className="technologies-table">
-            <thead>Some technologies i worked with</thead>
+            <thead className="table-head">Some technologies i worked with</thead>
             <tbody>
               <tr className="technologies-tr">
               {technologiesJson.map((technology)=>{
@@ -68,6 +70,8 @@ class App extends Component {
         <div class="footer">
           <img src={linkedin} alt="linkedin"></img>
           <img src={github} alt="github"></img>
+          <img src={medium} className="size-64"alt="medium"></img>
+          <img src={stackOverflow} className="size-64"alt="medium"></img>
         </div>
         <Switch>
       <Route exact path="/">{homePage}</Route>

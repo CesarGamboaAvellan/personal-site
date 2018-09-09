@@ -29,14 +29,14 @@ li {
 
 li a {
   display: block;
-  color: #2d6b22;
+  color: #0e1111;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 li a:hover {
-  background-color: #c4e199;
+  background-color: #3b444b;
 }
 .rounder-div{
   margin-top: 2%;
@@ -57,7 +57,7 @@ li a:hover {
   width: 100%;
   padding-top: 1%;
   padding-bottom: 1%;
-  background-color: #2d6b22;
+  background-color: #232b2b;
   color: white;
   text-align: center;
 }
@@ -71,10 +71,30 @@ li a:hover {
   width: 80px;
   height: auto;
 }
+.technologies-size:hover{
+  transform: scale(2.2); 
+}
 .technologies-table{
   margin-left: auto;
    margin-right: auto;
 }
 .technologies-tr{
   display: table;
+}
+.description-text{
+  width: 74%;
+    text-align: center;
+    display: inline-table;
+    font-size: 1.1em;
+    /* left: 51%; */
+    font-family: 'Lato', sans-serif;
+}
+.table-head{
+  font-size: 1.2em;
+    /* left: 51%; */
+    font-family: 'Lato', sans-serif;
+}
+.size-64{
+  width: 64px;
+  height: 64px;
 }
