@@ -8,6 +8,10 @@ ul {
   background-color: #e6ecf3;
   font-size: 1.7em;
 }
+table{
+  width: 100%; 
+  border-collapse: collapse; 
+}
 .divider {
   width: 70vw;
   height:2px;
@@ -51,8 +55,8 @@ li a:hover {
   left: 0;
   bottom: 0;
   width: 100%;
-  padding-top: 2%;
-  padding-bottom: 2%;
+  padding-top: 1%;
+  padding-bottom: 1%;
   background-color: #2d6b22;
   color: white;
   text-align: center;
@@ -62,4 +66,15 @@ li a:hover {
 }
 .font-style{
   
+}
+.technologies-size{
+  width: 80px;
+  height: auto;
+}
+.technologies-table{
+  margin-left: auto;
+   margin-right: auto;
+}
+.technologies-tr{
+  display: table;
 }

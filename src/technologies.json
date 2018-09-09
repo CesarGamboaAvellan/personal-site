@@ -3,18 +3,47 @@
     "src": "./assets/siteImages/512px-React-icon.svg.png"
 },
 {
-    "name": "Python",
+    "name": "Django",
     "src": "./assets/siteImages/260px-Django_logo.svg.png"
 },
 {
     "name":"JavaScript",
-    "src":"./assets/siteImages/600pxJavaScript-logo.svg.png"
+    "src":"./assets/siteImages/600px-JavaScript-logo.png"
 },
 {
     "name":"Node JS",
     "src":"./assets/siteImages/nodejslogo64px.png"
 },
 {
-    "name":"JavaScript",
-    "src":"./assets/siteImages/600pxJavaScript-logo.svg.png"
-}]
+    "name":"Python",
+    "src":"./assets/siteImages/110px-Python-logo-notext.svg.png"
+},
+{
+    "name":"Unity",
+    "src":"./assets/siteImages/unity-master-black.png"
+},
+{
+    "name":"C#",
+    "src":"./assets/siteImages/C.png"
+},
+{
+    "name":"HTML",
+    "src":"./assets/siteImages/html.png"
+},
+{
+    "name":"PSQL",
+    "src":"./assets/siteImages/postgresql_logo-320px.png"
+},
+{
+    "name":"Docker",
+    "src":"./assets/siteImages/docker.png"
+},
+{
+    "name":"Redux",
+    "src":"./assets/siteImages/800px-Redux_Logo.png"
+},
+{
+    "name":"Amazon Web Services",
+    "src":"./assets/siteImages/640px-AmazonWebservices_Logo.svg.png"
+}
+]

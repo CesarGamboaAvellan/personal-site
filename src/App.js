@@ -7,6 +7,7 @@ import Description from './Description';
 import Contact from './Contact';
 import Technologies from './Technologies';
 import technologiesJson from './technologies.json';
+import NodeImage from './assets/siteImages/nodejslogo64px.png'
 import {
   BrowserRouter as Router,
   Route,
@@ -25,6 +26,25 @@ class App extends Component {
           />
           <Description />
           <h2 className="divider"></h2>
+          <table className="technologies-table">
+            <thead>Some technologies i worked with</thead>
+            <tbody>
+              <tr className="technologies-tr">
+              {technologiesJson.map((technology)=>{
+          return (
+                <td>
+                  <figure>
+                  <img src={require(`${technology.src}`)} className="technologies-size"></img>
+                    {/* <figcaption>
+                      {technology.name}
+                    </figcaption> */}
+                  </figure>
+            </td>
+          );
+        })}
+              </tr>
+            </tbody>
+          </table>
       </div>);
     return (
       <div className="App">
@@ -45,13 +65,6 @@ class App extends Component {
           </ul>
             <h2 className="divider"></h2>
         </div>
-        <ul>{technologiesJson.map((technology)=>{
-          return (
-            <li>
-              {technology.name}
-            </li>
-          );
-        })}</ul>
         <div class="footer">
           <img src={linkedin} alt="linkedin"></img>
           <img src={github} alt="github"></img>
