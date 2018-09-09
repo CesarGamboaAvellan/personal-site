@@ -6,6 +6,7 @@ import "./App.css";
 import Description from './Description';
 import Contact from './Contact';
 import Technologies from './Technologies';
+import technologiesJson from './technologies.json';
 import {
   BrowserRouter as Router,
   Route,
@@ -15,6 +16,7 @@ import {
 
 class App extends Component {
   render() {
+    console.log(technologiesJson);
     const homePage = ( <div className="div-father">
         <img
             src={profilePicture}
@@ -22,6 +24,7 @@ class App extends Component {
             className="rounder-div"
           />
           <Description />
+          <h2 className="divider"></h2>
       </div>);
     return (
       <div className="App">
@@ -42,6 +45,13 @@ class App extends Component {
           </ul>
             <h2 className="divider"></h2>
         </div>
+        <ul>{technologiesJson.map((technology)=>{
+          return (
+            <li>
+              {technology.name}
+            </li>
+          );
+        })}</ul>
         <div class="footer">
           <img src={linkedin} alt="linkedin"></img>
           <img src={github} alt="github"></img>
@@ -49,7 +59,7 @@ class App extends Component {
         <Switch>
       <Route exact path="/">{homePage}</Route>
       <Route path="/portfolio" component={Contact}/>
-      <Route path="/experience" component={Contact}/>
+      <Route path="/experience" component={Technologies}/>
       <Route path="/contact" component={Contact}/>
   </Switch>
       </div>

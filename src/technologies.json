@@ -1,0 +1,20 @@
+[{
+    "name": "React",
+    "src": "./assets/siteImages/512px-React-icon.svg.png"
+},
+{
+    "name": "Python",
+    "src": "./assets/siteImages/260px-Django_logo.svg.png"
+},
+{
+    "name":"JavaScript",
+    "src":"./assets/siteImages/600pxJavaScript-logo.svg.png"
+},
+{
+    "name":"Node JS",
+    "src":"./assets/siteImages/nodejslogo64px.png"
+},
+{
+    "name":"JavaScript",
+    "src":"./assets/siteImages/600pxJavaScript-logo.svg.png"
+}]
