@@ -37,9 +37,6 @@ class App extends Component {
                 <td>
                   <figure>
                   <img src={require(`${technology.src}`)} className="technologies-size"></img>
-                    {/* <figcaption>
-                      {technology.name}
-                    </figcaption> */}
                   </figure>
             </td>
           );
@@ -51,7 +48,7 @@ class App extends Component {
     return (
       <div className="App">
         <div className="div-father">
-          <ul>
+          <ul className="font">
             <li>
             <Link to = "/">Home</Link>
             </li>
@@ -65,13 +62,17 @@ class App extends Component {
               <Link to = "/contact">Contact</Link>
             </li>
           </ul>
+            <div className="contact-icons">
+            <h4 className="font">Find me on:  </h4>
+            <img src={linkedin} className = "img-contact" alt="linkedin"></img>
+          <img src={github} className = "img-contact"alt="github"></img>
+          <img src={medium} className = "img-contact"alt="medium"></img>
+          <img src={stackOverflow} className = "img-contact" alt="stackoverflow"></img>
+            </div>
             <h2 className="divider"></h2>
         </div>
         <div class="footer">
-          <img src={linkedin} alt="linkedin"></img>
-          <img src={github} alt="github"></img>
-          <img src={medium} className="size-64"alt="medium"></img>
-          <img src={stackOverflow} className="size-64"alt="medium"></img>
+         Cesar Gamboa Avellan-Personal Site
         </div>
         <Switch>
       <Route exact path="/">{homePage}</Route>
