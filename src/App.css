@@ -67,6 +67,9 @@ li a:hover {
 .font-style{
   
 }
+.container{
+  text-align: center
+}
 .technologies-size{
   width: 80px;
   height: auto;
